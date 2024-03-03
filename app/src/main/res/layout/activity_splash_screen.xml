@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#96fab3">
+
+    <ImageView
+        android:id="@+id/imgviewLogo"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="250dp"
+        android:layout_height="250dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textviewLogoText"
+        android:text="Go Quiz App"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="App App Created By \n
+    Dimogerontakis Filippos (mscict22010)\n
+    Christos Sideris (mscict22062)\n
+    Vasilis Nikolakopoulos (mscict22049)"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
+
